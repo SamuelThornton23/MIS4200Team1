@@ -26,5 +26,11 @@ namespace MIS4200Team1.Controllers
 
             return View();
         }
+        public ActionResult CoreValues()
+        {
+            ViewBag.Message = "Centric's Core Values";
+
+            return View();
+        }
     }
 }
