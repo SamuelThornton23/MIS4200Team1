@@ -12,6 +12,7 @@ namespace MIS4200Team1.DAL
         public Context() : base("name=DefaultConnection")
         {
         }
+        public DbSet<UserData> UserData { get; set; }
 
     }
 }
