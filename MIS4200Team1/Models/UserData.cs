@@ -31,6 +31,7 @@ namespace MIS4200Team1.Models
         public string BusinessUnit { get; set; }
         [DisplayName("Hire Date")]
         [Required(ErrorMessage = "Hire Date is Required")]
+        [DisplayFormat(DataFormatString ="{0:d}", ApplyFormatInEditMode =true )]
         public DateTime HireDate { get; set; }
         public string Title { get; set; }
     }
